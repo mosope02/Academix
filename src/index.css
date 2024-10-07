@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-bg {
+    background-image: url(./assets/topright.png), url(./assets/bottomleft.png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+
+.landing-left {
+    background-image: url(./assets/downdown.png);
+    background-repeat: no-repeat;
+    background-position: 0% 150%;
+}
+
+.landing-right {
+    background-image: url(./assets/behind.png);
+    background-repeat: no-repeat;
+    background-position: 120% 100%;
+}
